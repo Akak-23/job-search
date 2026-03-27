@@ -1,0 +1,58 @@
+name: job_search
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pdf: ^3.11.3
+  printing: ^5.14.2
+  path_provider: ^2.1.5
+  image: ^4.5.4
+  http: ^1.6.0
+  shared_preferences: ^2.5.4
+  file_picker: ^10.3.7
+  url_launcher: ^6.2.0
+  webview_flutter: ^4.0.7
+  share_plus: ^10.1.4
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  flutter_local_notifications: ^17.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.1
+  flutter_native_splash: ^2.4.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - LogoAssets/icon.png
+    - LogoAssets/Frame_1.png
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "LogoAssets/icon.png"
+  min_sdk_android: 21
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: "LogoAssets/Frame_1.png"
+  android_gravity: "center"
+  android: true
+  ios: true
+
+  android_12:
+    icon_background_color: "#ffffff"
+    image: "LogoAssets/Frame_1.png"
+    icon_background_color_dark: "#ffffff"
+    image_dark: "LogoAssets/Frame_1.png"
+    
+
